@@ -21,6 +21,7 @@ with st.container():
         st.image(logo)
     with title_column:
         st.title(page_title)
+        st.subheader("where all the cents make sense")
 #inputing dates
 years = (datetime.today().year, datetime.today().year +1)
 months = list(calendar.month_name [1:])
